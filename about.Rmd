@@ -7,7 +7,7 @@ theme: theme.css
 
 Hi, I'm Alex! I'm a Master's student at Utrecht University studying Methodology and Statistics.  I plan to graduate in June 2023 and look forward to applying my statistical knowledge and programming skills to projects arising in medical domains.   
 
-Currently I am focused on my Master's thesis.  For my thesis, I aim to determine the best practices for handling class imbalance (without compromising model calibration) when developing clinical prediction models for dichotomous risk prediction. The project is based at the [Julius Center for Health Sciences and Primary Care](https://juliuscentrum.umcutrecht.nl/en) at the [University Medical Center Utrecht](https://www.umcutrecht.nl/en/) under the supervision of [Dr. Maarten van Smeden](http://mvansmeden.net/), [Dr. Kim Luijken]() and [Dr. Ben Van Calster](https://www.universiteitleiden.nl/en/staffmembers/ben-van-calster#tab-1)
+Currently I am focused on my Master's thesis.  For my thesis, I aim to determine the best practices for handling class imbalance (without compromising model calibration) when developing clinical prediction models for dichotomous risk prediction. The project is based at the [Julius Center for Health Sciences and Primary Care](https://juliuscentrum.umcutrecht.nl/en) at [University Medical Center Utrecht](https://www.umcutrecht.nl/en/) under the supervision of [Dr. Maarten van Smeden](http://mvansmeden.net/), [Dr. Kim Luijken]() and [Dr. Ben Van Calster](https://www.universiteitleiden.nl/en/staffmembers/ben-van-calster#tab-1).
 
 
 
