@@ -88,26 +88,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title> Alex Carriero : hello, something something</title>
+  <title> Alex Carriero : About Me</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content=" Alex Carriero : hello, something something"/>
+  <meta property="og:title" content=" Alex Carriero : About Me"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content=" Alex Carriero "/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content=" Alex Carriero : hello, something something"/>
+  <meta property="twitter:title" content=" Alex Carriero : About Me"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["hello, something something"]},{"type":"NULL"}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","theme"]}},"value":[{"type":"character","attributes":{},"value":["About Me"]},{"type":"character","attributes":{},"value":["theme.css"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2226,7 +2226,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  </style>
+
+  .d-title h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .about-block {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-bottom: 40px;
+  }
+
+  .about-image {
+    width: 50px;
+  }
+
+  .about-description {
+    margin-left: 40px;
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2402,7 +2421,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"hello, something something","authors":[]}
+{"title":"About Me","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2424,7 +2443,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>hello, something something</h1>
+<h1>About Me</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2432,7 +2451,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p>something something something</p>
+<h3 id="introduction">Introduction</h3>
+<p>Hi, I’m Alex! I’m a Master’s student at Utrecht University studying Methodology and Statistics. I plan to graduate in June 2023 and look forward to applying my statistical knowledge and programming skills to projects arising in a medical domain.</p>
+<p>Currently I am focused on my Master’s thesis. For my thesis, I aim to determine the best practices for handling class imbalance (without compromising model calibration) when developing clinical prediction models for dichotomous risk prediction. The project is based at the <a href="https://juliuscentrum.umcutrecht.nl/en">Julius Center for Health Sciences and Primary Care</a> at the <a href="https://www.umcutrecht.nl/en/">University Medical Center Utrecht</a> under the supervision of <a href="http://mvansmeden.net/">Dr. Maarten van Smeden</a>, <a href="">Dr. Kim Luijken</a> and <a href="https://www.universiteitleiden.nl/en/staffmembers/ben-van-calster#tab-1">Dr. Ben Van Calster</a></p>
+<h3 id="education">Education</h3>
+<div class="about-block">
+<div class="about-image">
+<img src="UU.png" width="50" />
+</div>
+<div class="about-description">
+<p><b> MSc. Methodology and Statistics for the Behavioural, Biomedical and Social Sciences </b></p>
+<p><em>In progress</em></p>
+</div>
+</div>
+<div class="about-block">
+<div class="about-image">
+<img src="UofG.png" width="50" />
+</div>
+<div class="about-description">
+<p><b> BSc. Physical Sciences </b></p>
+<p>During my time in Guelph I selected a degree program that gave me great flexibility to choose between studying Mathematics and Biomedical Science. After taking a wide range of courses in both departments (e.g., Advanced Calculus, Applied Differential Equations, Physiology, Epidemiology), I discovered that I love statistics. Statistics was the perfect way for me to merge my interests in mathematics and medicine. So, in my final few years at Guelph, I took every statistics course I could enroll in. My favorite course was Statistical Computing.<br />
+<br />
+For my Bachelor’s thesis I completed a project in the statistics department with <a href="https://mathstat.uoguelph.ca/people/darlington">Dr. Gerarda Darlington</a>. In this project, I coded a simulation study to compare statistical methods for modelling clustered data in the presence of small cluster
+sizes.<br />
+<br />
+<b> GPA: 4.0 </b></p>
+</div>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

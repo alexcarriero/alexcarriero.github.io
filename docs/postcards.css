@@ -77,3 +77,22 @@ d-appendix {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
+.d-title h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.about-block {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+
+.about-image {
+  width: 50px;
+}
+
+.about-description {
+  margin-left: 40px;
+}
