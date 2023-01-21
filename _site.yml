@@ -1,0 +1,13 @@
+name: "alcarr-website"
+title: " Alex Carriero "
+description: |
+  Alex Carriero
+output_dir: "docs"
+theme: postcards.css
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
+output: distill::distill_article

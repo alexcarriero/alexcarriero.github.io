@@ -1,0 +1,19 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About Me ",
+      "author": [],
+      "contents": "\nclick here to download a copy of my CV.\n\n\n\n",
+      "last_modified": "2023-01-21T07:17:03-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Alex Carriero",
+      "author": [],
+      "contents": "\n\n          \n          \n           Alex Carriero \n          \n          \n          Home\n          About Me\n          ☰\n          \n          \n      \n        \n          \n            Alex Carriero\n          \n          \n            \n              I am a Master’s student at Utrecht University studying\n              Methodology and Statistics.\n            \n            \n              I am a Master’s student at Utrecht University studying\n              Methodology and Statistics.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      Email\n                    \n                  \n                \n                                \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      CV\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    Email\n                  \n                \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    CV\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2023-01-21T03:08:58-05:00"
+    }
+  ],
+  "collections": []
+}
