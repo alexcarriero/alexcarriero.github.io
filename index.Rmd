@@ -17,5 +17,5 @@ output:
 site: distill::distill_website
 ---
  
-I am a Master's student at Utrecht University studying Methodology and Statistics. 
+MSc student at Utrecht University studying Methodology and Statistics. 
 
